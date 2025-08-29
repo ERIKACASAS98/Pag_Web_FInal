@@ -1,15 +1,29 @@
-# Archivos de configuración de VS Code
-.vscode/
+# Archivos de entorno y contraseñas
+.env
+config.php
+*.ini
+
+# Archivos de base de datos
+*.sql
+*.db
 
 # Archivos de logs
 *.log
+logs/
+error_log
 
-# Archivos temporales de sistema
+# Archivos temporales
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# Carpetas del sistema / IDE
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 
-# Carpeta vendor (si usas Composer en PHP)
-vendor/
-
-# Variables de entorno (si tuvieras)
-.env
+# Archivos de XAMPP o PHPMyAdmin
+htdocs/
+phpmyadmin/

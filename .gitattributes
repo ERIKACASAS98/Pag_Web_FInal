@@ -1,1 +1,15 @@
+# Forzar que los .php se detecten como PHP
 *.php linguist-language=PHP
+
+# Ignorar archivos de base de datos y SQL en estadísticas
+*.sql linguist-detectable=false
+
+# Ignorar archivos de configuración
+*.env linguist-detectable=false
+config.php linguist-detectable=false
+
+# Ignorar archivos de documentación en estadísticas
+*.md linguist-detectable=false
+
+# Ignorar logs
+*.log linguist-detectable=false
