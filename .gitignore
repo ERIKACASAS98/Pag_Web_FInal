@@ -1,0 +1,15 @@
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Carpeta vendor (si usas Composer en PHP)
+vendor/
+
+# Variables de entorno (si tuvieras)
+.env
